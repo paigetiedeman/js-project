@@ -4,10 +4,6 @@ $(document).click(function() {
     alert("I told you, THIS IS A HEADING!");
   });
 
-  $("p").click(function() {
-    alert("This is a paragraph.");
-  });
-
   $("img").click(function() {
     alert("This is an image.");
   });
@@ -15,5 +11,15 @@ $(document).click(function() {
   $(".clickable").click(function() {
     $("#walrus-showing").toggle();
     $("#walrus-hidden").toggle();
+  });
+
+  $("button#light").click(function() {
+    $("body").removeClass();
+    $("body").addClass("light-background");
+  });
+
+  $("button#dark").click(function() {
+    $("body").removeClass();
+    $("body").addClass("dark-background");
   });
 });
