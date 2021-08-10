@@ -1,3 +1,10 @@
+body {
+  background-color: rgb(209, 220, 241);
+}
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
 #walrus-showing {
   display: none;
 }
