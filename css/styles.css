@@ -1,0 +1,9 @@
+.walrus-showing {
+  display: none;
+}
+
+img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
