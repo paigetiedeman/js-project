@@ -1,7 +1,10 @@
 $(document).click(function() {
   $("h1").click(function() {
-    alert("This is a heading.");
-    alert("I told you, THIS IS A HEADING!");
+    const messages = ['This is a heading', "I told you, THIS IS A HEADING!"]
+    messages.forEach(function(message) {
+      alert(message); 
+    });
+    
   });
 
   $("img").click(function() {
@@ -9,8 +12,8 @@ $(document).click(function() {
   });
 
   $(".clickable").click(function() {
-    $("#walrus-showing").toggle();
-    $("#walrus-hidden").toggle();
+    $("#walrus-showing").Toggle();
+    $("#walrus-hidden").Toggle();
   });
 
   $("button#light").click(function() {
